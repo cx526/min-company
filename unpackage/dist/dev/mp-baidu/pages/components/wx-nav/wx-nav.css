@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.nav-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 24rpx;
+  margin-top: 24rpx;
+}
+.nav-box .nav-list {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.nav-box .nav-list .nav-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-right: 12rpx;
+      width: calc(33.33% - 4rpx);
+}
+.nav-box .nav-list .nav-item .nav-context {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        height: 200rpx;
+        background: #ccc;
+}
+.nav-box .nav-list .nav-item .nav-title {
+        line-height: 40rpx;
+        background: #009B4D;
+        text-align: center;
+        color: #fff;
+        margin-top: 12rpx;
+        font-size: 24rpx;
+}
+.nav-box .nav-list .nav-item:nth-child(3) {
+      margin-right: 0;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vQzovVXNlcnMvQWRtaW5pc3RyYXRvci9EZXNrdG9wL21pbi1jb21wYW55L3BhZ2VzL2NvbXBvbmVudHMvd3gtbmF2L3d4LW5hdi52dWU/N2JkNiJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSIsImZpbGUiOiJwYWdlcy9jb21wb25lbnRzL3d4LW5hdi93eC1uYXYuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiQGNoYXJzZXQgXCJVVEYtOFwiO1xuLyoqXHJcbiAqIOi/memHjOaYr3VuaS1hcHDlhoXnva7nmoTluLjnlKjmoLflvI/lj5jph49cclxuICpcclxuICogdW5pLWFwcCDlrpjmlrnmianlsZXmj5Lku7blj4rmj5Lku7bluILlnLrvvIhodHRwczovL2V4dC5kY2xvdWQubmV0LmNu77yJ5LiK5b6I5aSa5LiJ5pa55o+S5Lu25Z2H5L2/55So5LqG6L+Z5Lqb5qC35byP5Y+Y6YePXHJcbiAqIOWmguaenOS9oOaYr+aPkuS7tuW8gOWPkeiAhe+8jOW7uuiuruS9oOS9v+eUqHNjc3PpooTlpITnkIbvvIzlubblnKjmj5Lku7bku6PnoIHkuK3nm7TmjqXkvb/nlKjov5nkupvlj5jph4/vvIjml6DpnIAgaW1wb3J0IOi/meS4quaWh+S7tu+8ie+8jOaWueS+v+eUqOaIt+mAmui/h+aQreenr+acqOeahOaWueW8j+W8gOWPkeaVtOS9k+mjjuagvOS4gOiHtOeahEFwcFxyXG4gKlxyXG4gKi9cbi8qKlxyXG4gKiDlpoLmnpzkvaDmmK9BcHDlvIDlj5HogIXvvIjmj5Lku7bkvb/nlKjogIXvvInvvIzkvaDlj6/ku6XpgJrov4fkv67mlLnov5nkupvlj5jph4/mnaXlrprliLboh6rlt7HnmoTmj5Lku7bkuLvpopjvvIzlrp7njrDoh6rlrprkuYnkuLvpopjlip/og71cclxuICpcclxuICog5aaC5p6c5L2g55qE6aG555uu5ZCM5qC35L2/55So5LqGc2Nzc+mihOWkhOeQhu+8jOS9oOS5n+WPr+S7peebtOaOpeWcqOS9oOeahCBzY3NzIOS7o+eggeS4reS9v+eUqOWmguS4i+WPmOmHj++8jOWQjOaXtuaXoOmcgCBpbXBvcnQg6L+Z5Liq5paH5Lu2XHJcbiAqL1xuLyog6aKc6Imy5Y+Y6YePICovXG4vKiDooYzkuLrnm7jlhbPpopzoibIgKi9cbi8qIOaWh+Wtl+WfuuacrOminOiJsiAqL1xuLyog6IOM5pmv6aKc6ImyICovXG4vKiDovrnmoYbpopzoibIgKi9cbi8qIOWwuuWvuOWPmOmHjyAqL1xuLyog5paH5a2X5bC65a+4ICovXG4vKiDlm77niYflsLrlr7ggKi9cbi8qIEJvcmRlciBSYWRpdXMgKi9cbi8qIOawtOW5s+mXtOi3nSAqL1xuLyog5Z6C55u06Ze06LedICovXG4vKiDpgI/mmI7luqYgKi9cbi8qIOaWh+eroOWcuuaZr+ebuOWFsyAqL1xuLm5hdi1ib3gge1xuICAtd2Via2l0LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgcGFkZGluZzogMCAyNHJweDtcbiAgbWFyZ2luLXRvcDogMjRycHg7XG59XG4ubmF2LWJveCAubmF2LWxpc3Qge1xuICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgZGlzcGxheTogLXdlYmtpdC1ib3g7XG4gICAgZGlzcGxheTogLXdlYmtpdC1mbGV4O1xuICAgIGRpc3BsYXk6IC1tcy1mbGV4Ym94O1xuICAgIGRpc3BsYXk6IGZsZXg7XG59XG4ubmF2LWJveCAubmF2LWxpc3QgLm5hdi1pdGVtIHtcbiAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgIG1hcmdpbi1yaWdodDogMTJycHg7XG4gICAgICB3aWR0aDogY2FsYygzMy4zMyUgLSA0cnB4KTtcbn1cbi5uYXYtYm94IC5uYXYtbGlzdCAubmF2LWl0ZW0gLm5hdi1jb250ZXh0IHtcbiAgICAgICAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICBoZWlnaHQ6IDIwMHJweDtcbiAgICAgICAgYmFja2dyb3VuZDogI2NjYztcbn1cbi5uYXYtYm94IC5uYXYtbGlzdCAubmF2LWl0ZW0gLm5hdi10aXRsZSB7XG4gICAgICAgIGxpbmUtaGVpZ2h0OiA0MHJweDtcbiAgICAgICAgYmFja2dyb3VuZDogIzAwOUI0RDtcbiAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICBjb2xvcjogI2ZmZjtcbiAgICAgICAgbWFyZ2luLXRvcDogMTJycHg7XG4gICAgICAgIGZvbnQtc2l6ZTogMjRycHg7XG59XG4ubmF2LWJveCAubmF2LWxpc3QgLm5hdi1pdGVtOm50aC1jaGlsZCgzKSB7XG4gICAgICBtYXJnaW4tcmlnaHQ6IDA7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9*/

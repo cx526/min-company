@@ -1,0 +1,1 @@
+<view><shop-title vue-id="1" shopTitle="相关案例" bind:__l="__l"></shop-title><view class="case-list"><block wx:for="{{9}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="case-item"></view></block></block></view></view>

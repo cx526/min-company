@@ -1,0 +1,321 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+					"navigationBarTitleText":"首页",
+					"app-plus":{
+						"scrollIndicator":"none"
+					}
+				}
+			},
+	    {
+				"path" : "pages/product/product",
+				"style" : {
+					"navigationBarTitleText":"产品",
+					"app-plus":{
+						"scrollIndicator":"none"
+					}
+				}
+			},
+      {
+				"path" : "pages/shop/shop",
+				"style" : {
+					"navigationBarTitleText":"商城开发",
+					"app-plus":{
+						"scrollIndicator":"none"
+					}
+				}
+			},
+      {
+				"path" : "pages/develop/develop",
+				"style" : {
+					"navigationBarTitleText":"文章详情",
+					"app-plus":{
+						"scrollIndicator":"none"
+					}
+				}
+			},
+      {
+				"path" : "pages/user/user",
+				"style" : {
+					"navigationBarTitleText":"个人中心",
+					"app-plus":{
+						"scrollIndicator":"none"
+					}
+				}
+			},
+      {
+				"path" : "pages/common/header/header",
+				"style" : {}
+			}
+        ,{
+            "path" : "pages/components/index-title/index-title",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/common/location/location",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/shop-title/shop-title",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/relate/relate",
+            "style" : {
+							"navigationBarTitleText":"关于我们",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/common/swiper/swiper",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/index-dynamic/index-dynamic",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/components/index-user/index-user",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/index-service/index-service",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/index-product/index-product",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/index-advantage/index-advantage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/product-nav/product-nav",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/shop-type/shop-type",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/shop-core/shop-core",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/shop-case/shop-case",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/relate-nav/relate-nav",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/relate-partner/relate-partner",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/common/banner/banner",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/wx/wx",
+            "style" : {
+							"navigationBarTitleText":"微信小程序",
+							"app-plus": {
+								"scrollIndicator":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/components/wx-nav/wx-nav",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/wx-advantage/wx-advantage",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/wx-case/wx-case",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/concact/concact",
+            "style" : {
+							"navigationBarTitleText":"联系我们",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/components/concact-map/concact-map",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/concact-address/concact-address",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/concact-wx/concact-wx",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/baidu/baidu",
+            "style" : {
+							"navigationBarTitleText":"百度小程序",
+							"app-plus": {
+								"scrollIndicator":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/components/baidu-video/baidu-video",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/sell/sell",
+            "style" : {
+							"navigationBarTitleText":"直销系统",
+							"app-plus":{
+								"scrollIndicator":"none"
+							}
+						}
+        }
+        ,{
+            "path" : "pages/components/sell-system/sell-system",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/sell-type/sell-type",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/sell-service/sell-service",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/sell-new/sell-new",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/sell-article/sell-article",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/baidu-feature/baidu-feature",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/baidu-flow/baidu-flow",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/baidu-path/baidu-path",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/baidu-plan/baidu-plan",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/baidu-case/baidu-case",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/shop-related/shop-related",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/shop-superiority/shop-superiority",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/index-notice/index-notice",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/index-message/index-message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/wx-type/wx-type",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/dynamic-list/dynamic-list",
+            "style" : {
+							"navigationBarTitleText":"动态列表"
+						}
+        }
+        ,{
+            "path" : "pages/components/dynamic-context/dynamic-context",
+            "style" : {
+							"navigationBarTitleText":"热点资讯内容页"
+						}
+        }
+        ,{
+            "path" : "pages/components/user-info/user-info",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/user-message/user-message",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/user-recommend/user-recommend",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/components/user-list/user-list",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+			"color":"#666666",
+			"selectedColor":"#CC0000",
+			"list":[
+				{
+					"pagePath":"pages/index/index",
+					"iconPath":"/static/images/icon-tabbar/none-index.png",
+					"selectedIconPath":"/static/images/icon-tabbar/index-active.png",
+					"text":"首页"
+				},
+				{
+					"pagePath":"pages/product/product",
+					"iconPath":"/static/images/icon-tabbar/none-product.png",
+					"selectedIconPath":"/static/images/icon-tabbar/product-active.png",
+					"text":"产品"
+				},
+				{
+					"pagePath":"pages/shop/shop",
+					"iconPath":"/static/images/icon-tabbar/none-shop.png",
+					"selectedIconPath":"/static/images/icon-tabbar/shop-active.png",
+					"text":"商城"
+				},
+				{
+					"pagePath":"pages/develop/develop",
+					"iconPath":"/static/images/icon-tabbar/none-develop.png",
+					"selectedIconPath":"/static/images/icon-tabbar/develop-active.png",
+					"text":"开发"
+				},
+				{
+					"pagePath":"pages/user/user",
+					"iconPath":"/static/images/icon-tabbar/none-user.png",
+					"selectedIconPath":"/static/images/icon-tabbar/user-active.png",
+					"text":"用户"
+				}
+			]
+		},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}

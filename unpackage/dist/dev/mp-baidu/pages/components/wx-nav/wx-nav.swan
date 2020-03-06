@@ -1,0 +1,1 @@
+<view><view class="nav-box"><view class="nav-list"><block s-for="{{navList}}" s-for-item="item" s-for-index="index" s-key="index"><block><view class="nav-item"><view class="nav-context"></view><view class="nav-title">{{item}}</view></view></block></block></view></view></view>

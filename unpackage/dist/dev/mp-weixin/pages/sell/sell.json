@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "直销系统",
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "location": "/pages/common/location/location",
+    "sell-system": "/pages/components/sell-system/sell-system",
+    "sell-type": "/pages/components/sell-type/sell-type",
+    "sell-service": "/pages/components/sell-service/sell-service",
+    "sell-new": "/pages/components/sell-new/sell-new",
+    "sell-article": "/pages/components/sell-article/sell-article"
+  }
+}

@@ -1,0 +1,1 @@
+<view class="data-v-af32883a"><view class="advantage-title data-v-af32883a"><view class="line data-v-af32883a" style="{{'background:'+(bgColor)+';'}}"></view><view class="title data-v-af32883a" style="{{'color:'+(textColor)+';'}}">{{title}}</view><view class="line data-v-af32883a" style="{{'background:'+(bgColor)+';'}}"></view></view></view>

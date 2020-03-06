@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "个人中心",
+  "component": true,
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "user-info": "/pages/components/user-info/user-info",
+    "user-message": "/pages/components/user-message/user-message",
+    "user-recommend": "/pages/components/user-recommend/user-recommend",
+    "user-list": "/pages/components/user-list/user-list"
+  }
+}

@@ -1,0 +1,1 @@
+<view><video class="multimedia" src="{{videoSrc}}"></video></view>

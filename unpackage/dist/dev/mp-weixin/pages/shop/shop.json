@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "商城开发",
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "location": "/pages/common/location/location",
+    "shop-related": "/pages/components/shop-related/shop-related",
+    "shop-advantage": "/pages/components/shop-superiority/shop-superiority",
+    "shop-type": "/pages/components/shop-type/shop-type",
+    "shop-core": "/pages/components/shop-core/shop-core",
+    "shop-case": "/pages/components/shop-case/shop-case"
+  }
+}

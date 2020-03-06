@@ -1,0 +1,1 @@
+<view><view class="service-swiper"><swiper indicator-dots autoplay circular><block wx:for="{{serviceImg}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><swiper-item><image src="{{item}}" data-event-opts="{{[['tap',[['productArticle',[index]]]]]}}" bindtap="__e"></image></swiper-item></block></block></swiper></view></view>

@@ -1,0 +1,1 @@
+<view><shop-title vue-id="1" shopTitle="相关案例"></shop-title><view class="case-list"><block s-for="{{9}}" s-for-item="item" s-for-index="index" s-key="index"><block><view class="case-item"></view></block></block></view></view>

@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "百度小程序",
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "location": "/pages/common/location/location",
+    "baidu-video": "/pages/components/baidu-video/baidu-video",
+    "baidu-feature": "/pages/components/baidu-feature/baidu-feature",
+    "baidu-flow": "/pages/components/baidu-flow/baidu-flow",
+    "baidu-path": "/pages/components/baidu-path/baidu-path",
+    "baidu-plan": "/pages/components/baidu-plan/baidu-plan",
+    "baidu-case": "/pages/components/baidu-case/baidu-case"
+  }
+}

@@ -1,0 +1,1 @@
+<view><view class="type-box"><view class="type-list"><block s-for="{{typeList}}" s-for-item="item" s-for-index="index" s-key="index"><block><view class="type-item"><view></view><view>{{item}}</view></view></block></block></view></view></view>

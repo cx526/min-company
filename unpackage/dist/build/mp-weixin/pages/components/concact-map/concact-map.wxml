@@ -1,0 +1,1 @@
+<view><map class="map" latitude="{{mapList.latitude}}" longitude="{{mapList.longitude}}" markers="{{mapList.covers}}"></map></view>

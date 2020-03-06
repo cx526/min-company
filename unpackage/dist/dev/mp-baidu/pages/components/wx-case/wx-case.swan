@@ -1,0 +1,1 @@
+<view><view class="wx-case"><view>相关案例</view><view class="case-context"><block s-for="{{9}}" s-for-item="item" s-for-index="index" s-key="index"><block><view class="case-item"></view></block></block></view></view></view>

@@ -1,0 +1,1 @@
+<view><view class="partner-box"><view class="partner-title"><view>合作伙伴</view><image src="/static/images/tagline-first.jpg"></image></view><view class="partner-list"><block wx:for="{{12}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="partner-item"></view></block></block></view></view></view>

@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "微信小程序",
+  "component": true,
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "location": "/pages/common/location/location",
+    "weixin-nav": "/pages/components/wx-nav/wx-nav",
+    "weixin-type": "/pages/components/wx-type/wx-type",
+    "weixin-advantage": "/pages/components/wx-advantage/wx-advantage",
+    "weixin-case": "/pages/components/wx-case/wx-case"
+  }
+}

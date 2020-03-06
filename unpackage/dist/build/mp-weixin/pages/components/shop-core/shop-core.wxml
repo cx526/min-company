@@ -1,0 +1,1 @@
+<view><view class="core-box"><view class="core-title"><text>核心技术</text></view><view class="core-list"><block wx:for="{{coreList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="core-item"><view class="core-topic"></view><view class="core-title">{{item.title}}</view><view class="core-des">{{item.des}}</view></view></block></block></view></view></view>

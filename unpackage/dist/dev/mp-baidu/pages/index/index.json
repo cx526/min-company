@@ -1,0 +1,17 @@
+{
+  "navigationBarTitleText": "首页",
+  "component": true,
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "title": "/pages/components/index-title/index-title",
+    "message": "/pages/components/index-message/index-message",
+    "notice": "/pages/components/index-notice/index-notice",
+    "swiper": "/pages/common/swiper/swiper",
+    "article-list": "/pages/components/index-dynamic/index-dynamic",
+    "user": "/pages/components/index-user/index-user",
+    "service": "/pages/components/index-service/index-service",
+    "product": "/pages/components/index-product/index-product",
+    "advantage": "/pages/components/index-advantage/index-advantage"
+  }
+}

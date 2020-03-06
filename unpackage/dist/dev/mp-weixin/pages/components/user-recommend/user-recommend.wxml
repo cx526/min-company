@@ -1,0 +1,1 @@
+<view><view class="recommend-box"><view class="recommend-title"><view>谷智推荐</view><view class="icon iconfont icon-chanpin1"></view></view><view class="recommend-list"><block wx:for="{{3}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="recommend-item"></view></block></block></view></view></view>

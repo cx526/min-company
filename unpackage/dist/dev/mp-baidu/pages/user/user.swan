@@ -1,0 +1,1 @@
+<view><header vue-id="1"></header><user-info vue-id="2"></user-info><user-message vue-id="3"></user-message><user-recommend vue-id="4"></user-recommend><user-list vue-id="5" list="{{list}}"></user-list></view>

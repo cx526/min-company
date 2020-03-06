@@ -1,0 +1,1 @@
+<view class="service-box"><title vue-id="1" bgColor="#D4D4D4" title="谷智服务" textColor="#363030" bind:__l="__l"></title><view class="service-des"><view class="service-topic"></view><view class="service-title"><view>二次开发，选服务</view><view>就选谷智精源</view></view></view></view>

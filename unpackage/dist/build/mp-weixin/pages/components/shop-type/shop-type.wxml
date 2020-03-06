@@ -1,0 +1,1 @@
+<view><view class="type-box"><view class="type-list"><block wx:for="{{typeList}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="type-item"><view></view><view>{{item}}</view></view></block></block></view></view></view>

@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "联系我们",
+  "component": true,
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "concact-map": "/pages/components/concact-map/concact-map",
+    "location": "/pages/common/location/location",
+    "concact-address": "/pages/components/concact-address/concact-address",
+    "concact-wx": "/pages/components/concact-wx/concact-wx"
+  }
+}

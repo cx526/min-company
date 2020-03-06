@@ -1,0 +1,109 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/shop/shop",
+    "pages/develop/develop",
+    "pages/user/user",
+    "pages/common/header/header",
+    "pages/components/index-title/index-title",
+    "pages/common/location/location",
+    "pages/components/shop-title/shop-title",
+    "pages/relate/relate",
+    "pages/common/swiper/swiper",
+    "pages/components/index-dynamic/index-dynamic",
+    "pages/components/index-user/index-user",
+    "pages/components/index-service/index-service",
+    "pages/components/index-product/index-product",
+    "pages/components/index-advantage/index-advantage",
+    "pages/components/product-nav/product-nav",
+    "pages/components/shop-type/shop-type",
+    "pages/components/shop-core/shop-core",
+    "pages/components/shop-case/shop-case",
+    "pages/components/relate-nav/relate-nav",
+    "pages/components/relate-partner/relate-partner",
+    "pages/common/banner/banner",
+    "pages/wx/wx",
+    "pages/components/wx-nav/wx-nav",
+    "pages/components/wx-advantage/wx-advantage",
+    "pages/components/wx-case/wx-case",
+    "pages/concact/concact",
+    "pages/components/concact-map/concact-map",
+    "pages/components/concact-address/concact-address",
+    "pages/components/concact-wx/concact-wx",
+    "pages/baidu/baidu",
+    "pages/components/baidu-video/baidu-video",
+    "pages/sell/sell",
+    "pages/components/sell-system/sell-system",
+    "pages/components/sell-type/sell-type",
+    "pages/components/sell-service/sell-service",
+    "pages/components/sell-new/sell-new",
+    "pages/components/sell-article/sell-article",
+    "pages/components/baidu-feature/baidu-feature",
+    "pages/components/baidu-flow/baidu-flow",
+    "pages/components/baidu-path/baidu-path",
+    "pages/components/baidu-plan/baidu-plan",
+    "pages/components/baidu-case/baidu-case",
+    "pages/components/shop-related/shop-related",
+    "pages/components/shop-superiority/shop-superiority",
+    "pages/components/index-notice/index-notice",
+    "pages/components/index-message/index-message",
+    "pages/components/wx-type/wx-type",
+    "pages/components/dynamic-list/dynamic-list",
+    "pages/components/dynamic-context/dynamic-context",
+    "pages/components/user-info/user-info",
+    "pages/components/user-message/user-message",
+    "pages/components/user-recommend/user-recommend",
+    "pages/components/user-list/user-list"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#666666",
+    "selectedColor": "#CC0000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "/static/images/icon-tabbar/none-index.png",
+        "selectedIconPath": "/static/images/icon-tabbar/index-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "iconPath": "/static/images/icon-tabbar/none-product.png",
+        "selectedIconPath": "/static/images/icon-tabbar/product-active.png",
+        "text": "产品"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "iconPath": "/static/images/icon-tabbar/none-shop.png",
+        "selectedIconPath": "/static/images/icon-tabbar/shop-active.png",
+        "text": "商城"
+      },
+      {
+        "pagePath": "pages/develop/develop",
+        "iconPath": "/static/images/icon-tabbar/none-develop.png",
+        "selectedIconPath": "/static/images/icon-tabbar/develop-active.png",
+        "text": "开发"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "/static/images/icon-tabbar/none-user.png",
+        "selectedIconPath": "/static/images/icon-tabbar/user-active.png",
+        "text": "用户"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

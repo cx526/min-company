@@ -1,0 +1,1 @@
+<view><view class="sell-list"><view class="list-title"><view>行业新闻</view><view>More+</view></view><view class="list-item"><block s-for="{{articleList}}" s-for-item="item" s-for-index="index" s-key="index"><block><view class="item"><view>{{item.title}}</view><view>{{item.time}}</view></view></block></block></view></view></view>

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "产品",
+  "component": true,
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "location": "/pages/common/location/location",
+    "product-nav": "/pages/components/product-nav/product-nav"
+  }
+}

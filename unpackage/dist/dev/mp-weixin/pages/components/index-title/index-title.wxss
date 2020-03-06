@@ -1,0 +1,19 @@
+
+.advantage-title.data-v-33076b80 {
+	font-size: 36rpx;
+	text-align: center;
+	font-weight: 700;
+	line-height: 40rpx;
+	position: relative;
+}
+.advantage-title .line.data-v-33076b80 {
+	height: 1px;
+	width: 200rpx;
+	position: absolute;
+	left: 8%;
+	top: 50%;
+}
+.advantage-title .line.data-v-33076b80:last-child {
+	left: 65%;
+}
+

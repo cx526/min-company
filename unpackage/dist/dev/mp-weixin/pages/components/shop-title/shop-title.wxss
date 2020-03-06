@@ -1,0 +1,11 @@
+
+.related-title.data-v-23862624 {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding-left: 24rpx;
+	line-height: 60rpx;
+	font-size: 28rpx;
+	color: #333;
+	background: #CCCCCC;
+}
+

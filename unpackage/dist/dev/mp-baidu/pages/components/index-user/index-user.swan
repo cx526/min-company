@@ -1,0 +1,1 @@
+<view><view class="user-box"><title vue-id="1" title="谷智用户"></title><view class="user-list"><block s-for="{{8}}" s-for-item="item" s-for-index="index" s-key="index"><block><view class="user-item"></view></block></block></view></view></view>

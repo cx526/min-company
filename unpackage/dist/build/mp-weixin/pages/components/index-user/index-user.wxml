@@ -1,0 +1,1 @@
+<view><view class="user-box"><title vue-id="1" title="谷智用户" bind:__l="__l"></title><view class="user-list"><block wx:for="{{8}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="user-item"></view></block></block></view></view></view>

@@ -1,0 +1,1 @@
+<view class="data-v-0ccd2b9e"><header vue-id="1" class="data-v-0ccd2b9e" bind:__l="__l"></header><banner vue-id="2" class="data-v-0ccd2b9e" bind:__l="__l"></banner><location vue-id="3" area="产品" class="data-v-0ccd2b9e" bind:__l="__l"></location><product-nav vue-id="4" nav="{{nav}}" productText="{{productText}}" class="data-v-0ccd2b9e" bind:__l="__l"></product-nav></view>

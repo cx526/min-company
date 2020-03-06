@@ -1,0 +1,11 @@
+
+.location {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	line-height: 80rpx;
+	padding-left: 24rpx;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vQzovVXNlcnMvQWRtaW5pc3RyYXRvci9EZXNrdG9wL21pbi1jb21wYW55L3BhZ2VzL2NvbW1vbi9sb2NhdGlvbi9sb2NhdGlvbi52dWU/NGVkYSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EiLCJmaWxlIjoicGFnZXMvY29tbW9uL2xvY2F0aW9uL2xvY2F0aW9uLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLmxvY2F0aW9uIHtcblx0LXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHQgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG5cdGxpbmUtaGVpZ2h0OiA4MHJweDtcblx0cGFkZGluZy1sZWZ0OiAyNHJweDtcblx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFQUVBRUE7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9*/

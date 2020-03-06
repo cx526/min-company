@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "关于我们",
+  "component": true,
+  "usingComponents": {
+    "header": "/pages/common/header/header",
+    "banner": "/pages/common/banner/banner",
+    "location": "/pages/common/location/location",
+    "relate-nav": "/pages/components/relate-nav/relate-nav",
+    "relate-partner": "/pages/components/relate-partner/relate-partner"
+  }
+}

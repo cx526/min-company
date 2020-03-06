@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "shop-title": "/pages/components/shop-title/shop-title"
+  }
+}

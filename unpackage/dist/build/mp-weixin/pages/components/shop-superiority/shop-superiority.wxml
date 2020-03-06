@@ -1,0 +1,1 @@
+<view><view class="superiority-box"><shop-title vue-id="1" shopTitle="产品优势" bind:__l="__l"></shop-title><view class="superiority-context"></view></view></view>

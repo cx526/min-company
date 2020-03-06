@@ -1,0 +1,1 @@
+<view class="product-box"><title vue-id="1" bgColor="#D4D4D4" title="谷智产品" textColor="#363030" bind:__l="__l"></title><view class="product-list"><block wx:for="{{4}}" wx:for-item="item" wx:for-index="index" wx:key="index"><block><view class="product-item"></view></block></block></view></view>

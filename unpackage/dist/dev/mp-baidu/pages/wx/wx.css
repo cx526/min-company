@@ -1,0 +1,391 @@
+
+.header-box.data-v-1082b339 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 120rpx;
+	background: #242A37;
+	padding-right: 18rpx;
+	position: relative;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.header-box image.data-v-1082b339 {
+	width: 260rpx;
+	height: 80rpx;
+}
+.header-box .icon-menu-two.data-v-1082b339 {
+	color: #fff;
+}
+.select-box.data-v-1082b339 {
+	position: absolute;
+	right: 0;
+	top: 120rpx;
+}
+.select-item.data-v-1082b339 {
+	background: #242A37;
+	line-height: 50rpx;
+	font-size: 28rpx;
+	color: #fff;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	padding: 0 24rpx;
+	text-align: center;
+	z-index: 100;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.banner {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 400rpx;
+  background: #ccc;
+}
+
+
+.location {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	line-height: 80rpx;
+	padding-left: 24rpx;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.nav-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 24rpx;
+  margin-top: 24rpx;
+}
+.nav-box .nav-list {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.nav-box .nav-list .nav-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-right: 12rpx;
+      width: calc(33.33% - 4rpx);
+}
+.nav-box .nav-list .nav-item .nav-context {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        width: 100%;
+        height: 200rpx;
+        background: #ccc;
+}
+.nav-box .nav-list .nav-item .nav-title {
+        line-height: 40rpx;
+        background: #009B4D;
+        text-align: center;
+        color: #fff;
+        margin-top: 12rpx;
+        font-size: 24rpx;
+}
+.nav-box .nav-list .nav-item:nth-child(3) {
+      margin-right: 0;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.wx-type {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 24rpx 0;
+  background: #EDF7FF;
+}
+.wx-type .type-box {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0 18rpx;
+}
+.wx-type .type-box .type-list {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+}
+.wx-type .type-box .type-list .type-item {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        -webkit-flex-shrink: 0;
+            -ms-flex-negative: 0;
+                flex-shrink: 0;
+        margin-right: 16rpx;
+        width: calc(50% - 12rpx);
+        background: #fff;
+        padding: 0 24rpx;
+        height: 600rpx;
+        position: relative;
+}
+.wx-type .type-box .type-list .type-item .type-img {
+          display: -webkit-box;
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -webkit-align-items: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -webkit-box-pack: center;
+          -webkit-justify-content: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          border: 1px solid #ccc;
+          width: 90rpx;
+          height: 90rpx;
+          border-radius: 50%;
+          position: relative;
+          left: 50%;
+          top: 12rpx;
+          -webkit-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+                  transform: translateX(-50%);
+          padding: 0 20rpx;
+}
+.wx-type .type-box .type-list .type-item .type-img text {
+            font-size: 36rpx;
+            color: #666;
+}
+.wx-type .type-box .type-list .type-item .type-title {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          padding-top: 36rpx;
+}
+.wx-type .type-box .type-list .type-item .type-title view:first-child {
+            font-size: 32rpx;
+            color: #333;
+}
+.wx-type .type-box .type-list .type-item .type-title view:last-child {
+            font-size: 28rpx;
+            color: #666;
+            margin-top: 8rpx;
+}
+.wx-type .type-box .type-list .type-item .type-des {
+          font-size: 24rpx;
+          color: #666;
+          margin-top: 12rpx;
+}
+.wx-type .type-box .type-list .type-item .type-btn {
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          position: absolute;
+          bottom: 0;
+          left: 24rpx;
+          width: calc(100% - 48rpx);
+}
+.wx-type .type-box .type-list .type-item .type-btn button {
+            background: #fff;
+            font-size: 24rpx;
+            margin: 12rpx 0 24rpx 0;
+            border: 1px solid #A3B3D6;
+            color: #A3B3D6;
+}
+.wx-type .type-box .type-list .type-item:last-child {
+        margin-right: 0;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.title-box {
+  padding: 0 18rpx;
+  margin-top: 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  text-align: center;
+  color: #fff;
+}
+.title-box view:first-child {
+    background: #009B4D;
+}
+.title-box .title-context {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    height: 400rpx;
+    background: #ccc;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.wx-case {
+  padding: 0 18rpx;
+  margin-top: 24rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  text-align: center;
+  color: #fff;
+}
+.wx-case view:first-child {
+    background: #009B4D;
+}
+.wx-case .case-context {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-top: 24rpx;
+}
+.wx-case .case-context .case-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-right: 18rpx;
+      margin-bottom: 24rpx;
+      width: calc(33.33% - 12rpx);
+      height: 160rpx;
+      background: #ccc;
+}
+.wx-case .case-context .case-item:nth-child(3n) {
+      margin-right: 0;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vQzovVXNlcnMvQWRtaW5pc3RyYXRvci9EZXNrdG9wL21pbi1jb21wYW55L3BhZ2VzL2NvbW1vbi9oZWFkZXIvaGVhZGVyLnZ1ZT85ODZkIiwid2VicGFjazovLy9DOi9Vc2Vycy9BZG1pbmlzdHJhdG9yL0Rlc2t0b3AvbWluLWNvbXBhbnkvcGFnZXMvY29tbW9uL2Jhbm5lci9iYW5uZXIudnVlP2VhOTMiLCJ3ZWJwYWNrOi8vL0M6L1VzZXJzL0FkbWluaXN0cmF0b3IvRGVza3RvcC9taW4tY29tcGFueS9wYWdlcy9jb21tb24vbG9jYXRpb24vbG9jYXRpb24udnVlPzRlZGEiLCJ3ZWJwYWNrOi8vL0M6L1VzZXJzL0FkbWluaXN0cmF0b3IvRGVza3RvcC9taW4tY29tcGFueS9wYWdlcy9jb21wb25lbnRzL3d4LW5hdi93eC1uYXYudnVlPzdiZDYiLCJ3ZWJwYWNrOi8vL0M6L1VzZXJzL0FkbWluaXN0cmF0b3IvRGVza3RvcC9taW4tY29tcGFueS9wYWdlcy9jb21wb25lbnRzL3d4LXR5cGUvd3gtdHlwZS52dWU/NWQ3YSIsIndlYnBhY2s6Ly8vQzovVXNlcnMvQWRtaW5pc3RyYXRvci9EZXNrdG9wL21pbi1jb21wYW55L3BhZ2VzL2NvbXBvbmVudHMvd3gtYWR2YW50YWdlL3d4LWFkdmFudGFnZS52dWU/MDUxOCIsIndlYnBhY2s6Ly8vQzovVXNlcnMvQWRtaW5pc3RyYXRvci9EZXNrdG9wL21pbi1jb21wYW55L3BhZ2VzL2NvbXBvbmVudHMvd3gtY2FzZS93eC1jYXNlLnZ1ZT8xNjNmIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FDMUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7O0FDL0JBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQ1BBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBOztBQy9EQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7O0FDN0hBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTs7QUM1Q0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBIiwiZmlsZSI6InBhZ2VzL3d4L3d4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuLmhlYWRlci1ib3guZGF0YS12LTEwODJiMzM5IHtcblx0ZGlzcGxheTogLXdlYmtpdC1ib3g7XG5cdGRpc3BsYXk6IC13ZWJraXQtZmxleDtcblx0ZGlzcGxheTogLW1zLWZsZXhib3g7XG5cdGRpc3BsYXk6IGZsZXg7XG5cdC13ZWJraXQtYm94LWFsaWduOiBjZW50ZXI7XG5cdC13ZWJraXQtYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0ICAgIC1tcy1mbGV4LWFsaWduOiBjZW50ZXI7XG5cdCAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcblx0bGluZS1oZWlnaHQ6IDEyMHJweDtcblx0YmFja2dyb3VuZDogIzI0MkEzNztcblx0cGFkZGluZy1yaWdodDogMThycHg7XG5cdHBvc2l0aW9uOiByZWxhdGl2ZTtcblx0LXdlYmtpdC1ib3gtcGFjazoganVzdGlmeTtcblx0LXdlYmtpdC1qdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG5cdCAgICAtbXMtZmxleC1wYWNrOiBqdXN0aWZ5O1xuXHQgICAgICAgIGp1c3RpZnktY29udGVudDogc3BhY2UtYmV0d2Vlbjtcbn1cbi5oZWFkZXItYm94IGltYWdlLmRhdGEtdi0xMDgyYjMzOSB7XG5cdHdpZHRoOiAyNjBycHg7XG5cdGhlaWdodDogODBycHg7XG59XG4uaGVhZGVyLWJveCAuaWNvbi1tZW51LXR3by5kYXRhLXYtMTA4MmIzMzkge1xuXHRjb2xvcjogI2ZmZjtcbn1cbi5zZWxlY3QtYm94LmRhdGEtdi0xMDgyYjMzOSB7XG5cdHBvc2l0aW9uOiBhYnNvbHV0ZTtcblx0cmlnaHQ6IDA7XG5cdHRvcDogMTIwcnB4O1xufVxuLnNlbGVjdC1pdGVtLmRhdGEtdi0xMDgyYjMzOSB7XG5cdGJhY2tncm91bmQ6ICMyNDJBMzc7XG5cdGxpbmUtaGVpZ2h0OiA1MHJweDtcblx0Zm9udC1zaXplOiAyOHJweDtcblx0Y29sb3I6ICNmZmY7XG5cdC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcblx0ICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHRib3JkZXItYm90dG9tOiAxcHggc29saWQgI2ZmZjtcblx0cGFkZGluZzogMCAyNHJweDtcblx0dGV4dC1hbGlnbjogY2VudGVyO1xuXHR6LWluZGV4OiAxMDA7XG59XG4iLCJAY2hhcnNldCBcIlVURi04XCI7XG4vKipcclxuICog6L+Z6YeM5pivdW5pLWFwcOWGhee9rueahOW4uOeUqOagt+W8j+WPmOmHj1xyXG4gKlxyXG4gKiB1bmktYXBwIOWumOaWueaJqeWxleaPkuS7tuWPiuaPkuS7tuW4guWcuu+8iGh0dHBzOi8vZXh0LmRjbG91ZC5uZXQuY27vvInkuIrlvojlpJrkuInmlrnmj5Lku7blnYfkvb/nlKjkuobov5nkupvmoLflvI/lj5jph49cclxuICog5aaC5p6c5L2g5piv5o+S5Lu25byA5Y+R6ICF77yM5bu66K6u5L2g5L2/55Soc2Nzc+mihOWkhOeQhu+8jOW5tuWcqOaPkuS7tuS7o+eggeS4reebtOaOpeS9v+eUqOi/meS6m+WPmOmHj++8iOaXoOmcgCBpbXBvcnQg6L+Z5Liq5paH5Lu277yJ77yM5pa55L6/55So5oi36YCa6L+H5pCt56ev5pyo55qE5pa55byP5byA5Y+R5pW05L2T6aOO5qC85LiA6Ie055qEQXBwXHJcbiAqXHJcbiAqL1xuLyoqXHJcbiAqIOWmguaenOS9oOaYr0FwcOW8gOWPkeiAhe+8iOaPkuS7tuS9v+eUqOiAhe+8ie+8jOS9oOWPr+S7pemAmui/h+S/ruaUuei/meS6m+WPmOmHj+adpeWumuWItuiHquW3seeahOaPkuS7tuS4u+mimO+8jOWunueOsOiHquWumuS5ieS4u+mimOWKn+iDvVxyXG4gKlxyXG4gKiDlpoLmnpzkvaDnmoTpobnnm67lkIzmoLfkvb/nlKjkuoZzY3Nz6aKE5aSE55CG77yM5L2g5Lmf5Y+v5Lul55u05o6l5Zyo5L2g55qEIHNjc3Mg5Luj56CB5Lit5L2/55So5aaC5LiL5Y+Y6YeP77yM5ZCM5pe25peg6ZyAIGltcG9ydCDov5nkuKrmlofku7ZcclxuICovXG4vKiDpopzoibLlj5jph48gKi9cbi8qIOihjOS4uuebuOWFs+minOiJsiAqL1xuLyog5paH5a2X5Z+65pys6aKc6ImyICovXG4vKiDog4zmma/popzoibIgKi9cbi8qIOi+ueahhuminOiJsiAqL1xuLyog5bC65a+45Y+Y6YePICovXG4vKiDmloflrZflsLrlr7ggKi9cbi8qIOWbvueJh+WwuuWvuCAqL1xuLyogQm9yZGVyIFJhZGl1cyAqL1xuLyog5rC05bmz6Ze06LedICovXG4vKiDlnoLnm7Tpl7Tot50gKi9cbi8qIOmAj+aYjuW6piAqL1xuLyog5paH56ug5Zy65pmv55u45YWzICovXG4uYmFubmVyIHtcbiAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIHdpZHRoOiAxMDAlO1xuICBoZWlnaHQ6IDQwMHJweDtcbiAgYmFja2dyb3VuZDogI2NjYztcbn1cbiIsIlxuLmxvY2F0aW9uIHtcblx0LXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuXHQgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG5cdGxpbmUtaGVpZ2h0OiA4MHJweDtcblx0cGFkZGluZy1sZWZ0OiAyNHJweDtcblx0Ym9yZGVyLWJvdHRvbTogMXB4IHNvbGlkICNFQUVBRUE7XG59XG4iLCJAY2hhcnNldCBcIlVURi04XCI7XG4vKipcclxuICog6L+Z6YeM5pivdW5pLWFwcOWGhee9rueahOW4uOeUqOagt+W8j+WPmOmHj1xyXG4gKlxyXG4gKiB1bmktYXBwIOWumOaWueaJqeWxleaPkuS7tuWPiuaPkuS7tuW4guWcuu+8iGh0dHBzOi8vZXh0LmRjbG91ZC5uZXQuY27vvInkuIrlvojlpJrkuInmlrnmj5Lku7blnYfkvb/nlKjkuobov5nkupvmoLflvI/lj5jph49cclxuICog5aaC5p6c5L2g5piv5o+S5Lu25byA5Y+R6ICF77yM5bu66K6u5L2g5L2/55Soc2Nzc+mihOWkhOeQhu+8jOW5tuWcqOaPkuS7tuS7o+eggeS4reebtOaOpeS9v+eUqOi/meS6m+WPmOmHj++8iOaXoOmcgCBpbXBvcnQg6L+Z5Liq5paH5Lu277yJ77yM5pa55L6/55So5oi36YCa6L+H5pCt56ev5pyo55qE5pa55byP5byA5Y+R5pW05L2T6aOO5qC85LiA6Ie055qEQXBwXHJcbiAqXHJcbiAqL1xuLyoqXHJcbiAqIOWmguaenOS9oOaYr0FwcOW8gOWPkeiAhe+8iOaPkuS7tuS9v+eUqOiAhe+8ie+8jOS9oOWPr+S7pemAmui/h+S/ruaUuei/meS6m+WPmOmHj+adpeWumuWItuiHquW3seeahOaPkuS7tuS4u+mimO+8jOWunueOsOiHquWumuS5ieS4u+mimOWKn+iDvVxyXG4gKlxyXG4gKiDlpoLmnpzkvaDnmoTpobnnm67lkIzmoLfkvb/nlKjkuoZzY3Nz6aKE5aSE55CG77yM5L2g5Lmf5Y+v5Lul55u05o6l5Zyo5L2g55qEIHNjc3Mg5Luj56CB5Lit5L2/55So5aaC5LiL5Y+Y6YeP77yM5ZCM5pe25peg6ZyAIGltcG9ydCDov5nkuKrmlofku7ZcclxuICovXG4vKiDpopzoibLlj5jph48gKi9cbi8qIOihjOS4uuebuOWFs+minOiJsiAqL1xuLyog5paH5a2X5Z+65pys6aKc6ImyICovXG4vKiDog4zmma/popzoibIgKi9cbi8qIOi+ueahhuminOiJsiAqL1xuLyog5bC65a+45Y+Y6YePICovXG4vKiDmloflrZflsLrlr7ggKi9cbi8qIOWbvueJh+WwuuWvuCAqL1xuLyogQm9yZGVyIFJhZGl1cyAqL1xuLyog5rC05bmz6Ze06LedICovXG4vKiDlnoLnm7Tpl7Tot50gKi9cbi8qIOmAj+aYjuW6piAqL1xuLyog5paH56ug5Zy65pmv55u45YWzICovXG4ubmF2LWJveCB7XG4gIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICBwYWRkaW5nOiAwIDI0cnB4O1xuICBtYXJnaW4tdG9wOiAyNHJweDtcbn1cbi5uYXYtYm94IC5uYXYtbGlzdCB7XG4gICAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICBkaXNwbGF5OiAtd2Via2l0LWJveDtcbiAgICBkaXNwbGF5OiAtd2Via2l0LWZsZXg7XG4gICAgZGlzcGxheTogLW1zLWZsZXhib3g7XG4gICAgZGlzcGxheTogZmxleDtcbn1cbi5uYXYtYm94IC5uYXYtbGlzdCAubmF2LWl0ZW0ge1xuICAgICAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgbWFyZ2luLXJpZ2h0OiAxMnJweDtcbiAgICAgIHdpZHRoOiBjYWxjKDMzLjMzJSAtIDRycHgpO1xufVxuLm5hdi1ib3ggLm5hdi1saXN0IC5uYXYtaXRlbSAubmF2LWNvbnRleHQge1xuICAgICAgICAtd2Via2l0LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgIGhlaWdodDogMjAwcnB4O1xuICAgICAgICBiYWNrZ3JvdW5kOiAjY2NjO1xufVxuLm5hdi1ib3ggLm5hdi1saXN0IC5uYXYtaXRlbSAubmF2LXRpdGxlIHtcbiAgICAgICAgbGluZS1oZWlnaHQ6IDQwcnB4O1xuICAgICAgICBiYWNrZ3JvdW5kOiAjMDA5QjREO1xuICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgIGNvbG9yOiAjZmZmO1xuICAgICAgICBtYXJnaW4tdG9wOiAxMnJweDtcbiAgICAgICAgZm9udC1zaXplOiAyNHJweDtcbn1cbi5uYXYtYm94IC5uYXYtbGlzdCAubmF2LWl0ZW06bnRoLWNoaWxkKDMpIHtcbiAgICAgIG1hcmdpbi1yaWdodDogMDtcbn1cbiIsIkBjaGFyc2V0IFwiVVRGLThcIjtcbi8qKlxyXG4gKiDov5nph4zmmK91bmktYXBw5YaF572u55qE5bi455So5qC35byP5Y+Y6YePXHJcbiAqXHJcbiAqIHVuaS1hcHAg5a6Y5pa55omp5bGV5o+S5Lu25Y+K5o+S5Lu25biC5Zy677yIaHR0cHM6Ly9leHQuZGNsb3VkLm5ldC5jbu+8ieS4iuW+iOWkmuS4ieaWueaPkuS7tuWdh+S9v+eUqOS6hui/meS6m+agt+W8j+WPmOmHj1xyXG4gKiDlpoLmnpzkvaDmmK/mj5Lku7blvIDlj5HogIXvvIzlu7rorq7kvaDkvb/nlKhzY3Nz6aKE5aSE55CG77yM5bm25Zyo5o+S5Lu25Luj56CB5Lit55u05o6l5L2/55So6L+Z5Lqb5Y+Y6YeP77yI5peg6ZyAIGltcG9ydCDov5nkuKrmlofku7bvvInvvIzmlrnkvr/nlKjmiLfpgJrov4fmkK3np6/mnKjnmoTmlrnlvI/lvIDlj5HmlbTkvZPpo47moLzkuIDoh7TnmoRBcHBcclxuICpcclxuICovXG4vKipcclxuICog5aaC5p6c5L2g5pivQXBw5byA5Y+R6ICF77yI5o+S5Lu25L2/55So6ICF77yJ77yM5L2g5Y+v5Lul6YCa6L+H5L+u5pS56L+Z5Lqb5Y+Y6YeP5p2l5a6a5Yi26Ieq5bex55qE5o+S5Lu25Li76aKY77yM5a6e546w6Ieq5a6a5LmJ5Li76aKY5Yqf6IO9XHJcbiAqXHJcbiAqIOWmguaenOS9oOeahOmhueebruWQjOagt+S9v+eUqOS6hnNjc3PpooTlpITnkIbvvIzkvaDkuZ/lj6/ku6Xnm7TmjqXlnKjkvaDnmoQgc2NzcyDku6PnoIHkuK3kvb/nlKjlpoLkuIvlj5jph4/vvIzlkIzml7bml6DpnIAgaW1wb3J0IOi/meS4quaWh+S7tlxyXG4gKi9cbi8qIOminOiJsuWPmOmHjyAqL1xuLyog6KGM5Li655u45YWz6aKc6ImyICovXG4vKiDmloflrZfln7rmnKzpopzoibIgKi9cbi8qIOiDjOaZr+minOiJsiAqL1xuLyog6L655qGG6aKc6ImyICovXG4vKiDlsLrlr7jlj5jph48gKi9cbi8qIOaWh+Wtl+WwuuWvuCAqL1xuLyog5Zu+54mH5bC65a+4ICovXG4vKiBCb3JkZXIgUmFkaXVzICovXG4vKiDmsLTlubPpl7Tot50gKi9cbi8qIOWeguebtOmXtOi3nSAqL1xuLyog6YCP5piO5bqmICovXG4vKiDmlofnq6DlnLrmma/nm7jlhbMgKi9cbi53eC10eXBlIHtcbiAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIHBhZGRpbmc6IDI0cnB4IDA7XG4gIGJhY2tncm91bmQ6ICNFREY3RkY7XG59XG4ud3gtdHlwZSAudHlwZS1ib3gge1xuICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgcGFkZGluZzogMCAxOHJweDtcbn1cbi53eC10eXBlIC50eXBlLWJveCAudHlwZS1saXN0IHtcbiAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgIGRpc3BsYXk6IC13ZWJraXQtYm94O1xuICAgICAgZGlzcGxheTogLXdlYmtpdC1mbGV4O1xuICAgICAgZGlzcGxheTogLW1zLWZsZXhib3g7XG4gICAgICBkaXNwbGF5OiBmbGV4O1xufVxuLnd4LXR5cGUgLnR5cGUtYm94IC50eXBlLWxpc3QgLnR5cGUtaXRlbSB7XG4gICAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAtd2Via2l0LWZsZXgtc2hyaW5rOiAwO1xuICAgICAgICAgICAgLW1zLWZsZXgtbmVnYXRpdmU6IDA7XG4gICAgICAgICAgICAgICAgZmxleC1zaHJpbms6IDA7XG4gICAgICAgIG1hcmdpbi1yaWdodDogMTZycHg7XG4gICAgICAgIHdpZHRoOiBjYWxjKDUwJSAtIDEycnB4KTtcbiAgICAgICAgYmFja2dyb3VuZDogI2ZmZjtcbiAgICAgICAgcGFkZGluZzogMCAyNHJweDtcbiAgICAgICAgaGVpZ2h0OiA2MDBycHg7XG4gICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbn1cbi53eC10eXBlIC50eXBlLWJveCAudHlwZS1saXN0IC50eXBlLWl0ZW0gLnR5cGUtaW1nIHtcbiAgICAgICAgICBkaXNwbGF5OiAtd2Via2l0LWJveDtcbiAgICAgICAgICBkaXNwbGF5OiAtd2Via2l0LWZsZXg7XG4gICAgICAgICAgZGlzcGxheTogLW1zLWZsZXhib3g7XG4gICAgICAgICAgZGlzcGxheTogZmxleDtcbiAgICAgICAgICAtd2Via2l0LWJveC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgIC13ZWJraXQtYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICAgICAgICAgICAgLW1zLWZsZXgtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgLXdlYmtpdC1ib3gtcGFjazogY2VudGVyO1xuICAgICAgICAgIC13ZWJraXQtanVzdGlmeS1jb250ZW50OiBjZW50ZXI7XG4gICAgICAgICAgICAgIC1tcy1mbGV4LXBhY2s6IGNlbnRlcjtcbiAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDogY2VudGVyO1xuICAgICAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2NjYztcbiAgICAgICAgICB3aWR0aDogOTBycHg7XG4gICAgICAgICAgaGVpZ2h0OiA5MHJweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1MCU7XG4gICAgICAgICAgcG9zaXRpb246IHJlbGF0aXZlO1xuICAgICAgICAgIGxlZnQ6IDUwJTtcbiAgICAgICAgICB0b3A6IDEycnB4O1xuICAgICAgICAgIC13ZWJraXQtdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC01MCUpO1xuICAgICAgICAgICAgICAtbXMtdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC01MCUpO1xuICAgICAgICAgICAgICAgICAgdHJhbnNmb3JtOiB0cmFuc2xhdGVYKC01MCUpO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMjBycHg7XG59XG4ud3gtdHlwZSAudHlwZS1ib3ggLnR5cGUtbGlzdCAudHlwZS1pdGVtIC50eXBlLWltZyB0ZXh0IHtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMzZycHg7XG4gICAgICAgICAgICBjb2xvcjogIzY2Njtcbn1cbi53eC10eXBlIC50eXBlLWJveCAudHlwZS1saXN0IC50eXBlLWl0ZW0gLnR5cGUtdGl0bGUge1xuICAgICAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgcGFkZGluZy10b3A6IDM2cnB4O1xufVxuLnd4LXR5cGUgLnR5cGUtYm94IC50eXBlLWxpc3QgLnR5cGUtaXRlbSAudHlwZS10aXRsZSB2aWV3OmZpcnN0LWNoaWxkIHtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMzJycHg7XG4gICAgICAgICAgICBjb2xvcjogIzMzMztcbn1cbi53eC10eXBlIC50eXBlLWJveCAudHlwZS1saXN0IC50eXBlLWl0ZW0gLnR5cGUtdGl0bGUgdmlldzpsYXN0LWNoaWxkIHtcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMjhycHg7XG4gICAgICAgICAgICBjb2xvcjogIzY2NjtcbiAgICAgICAgICAgIG1hcmdpbi10b3A6IDhycHg7XG59XG4ud3gtdHlwZSAudHlwZS1ib3ggLnR5cGUtbGlzdCAudHlwZS1pdGVtIC50eXBlLWRlcyB7XG4gICAgICAgICAgZm9udC1zaXplOiAyNHJweDtcbiAgICAgICAgICBjb2xvcjogIzY2NjtcbiAgICAgICAgICBtYXJnaW4tdG9wOiAxMnJweDtcbn1cbi53eC10eXBlIC50eXBlLWJveCAudHlwZS1saXN0IC50eXBlLWl0ZW0gLnR5cGUtYnRuIHtcbiAgICAgICAgICAtd2Via2l0LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICAgICAgICBib3R0b206IDA7XG4gICAgICAgICAgbGVmdDogMjRycHg7XG4gICAgICAgICAgd2lkdGg6IGNhbGMoMTAwJSAtIDQ4cnB4KTtcbn1cbi53eC10eXBlIC50eXBlLWJveCAudHlwZS1saXN0IC50eXBlLWl0ZW0gLnR5cGUtYnRuIGJ1dHRvbiB7XG4gICAgICAgICAgICBiYWNrZ3JvdW5kOiAjZmZmO1xuICAgICAgICAgICAgZm9udC1zaXplOiAyNHJweDtcbiAgICAgICAgICAgIG1hcmdpbjogMTJycHggMCAyNHJweCAwO1xuICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI0EzQjNENjtcbiAgICAgICAgICAgIGNvbG9yOiAjQTNCM0Q2O1xufVxuLnd4LXR5cGUgLnR5cGUtYm94IC50eXBlLWxpc3QgLnR5cGUtaXRlbTpsYXN0LWNoaWxkIHtcbiAgICAgICAgbWFyZ2luLXJpZ2h0OiAwO1xufVxuIiwiQGNoYXJzZXQgXCJVVEYtOFwiO1xuLyoqXHJcbiAqIOi/memHjOaYr3VuaS1hcHDlhoXnva7nmoTluLjnlKjmoLflvI/lj5jph49cclxuICpcclxuICogdW5pLWFwcCDlrpjmlrnmianlsZXmj5Lku7blj4rmj5Lku7bluILlnLrvvIhodHRwczovL2V4dC5kY2xvdWQubmV0LmNu77yJ5LiK5b6I5aSa5LiJ5pa55o+S5Lu25Z2H5L2/55So5LqG6L+Z5Lqb5qC35byP5Y+Y6YePXHJcbiAqIOWmguaenOS9oOaYr+aPkuS7tuW8gOWPkeiAhe+8jOW7uuiuruS9oOS9v+eUqHNjc3PpooTlpITnkIbvvIzlubblnKjmj5Lku7bku6PnoIHkuK3nm7TmjqXkvb/nlKjov5nkupvlj5jph4/vvIjml6DpnIAgaW1wb3J0IOi/meS4quaWh+S7tu+8ie+8jOaWueS+v+eUqOaIt+mAmui/h+aQreenr+acqOeahOaWueW8j+W8gOWPkeaVtOS9k+mjjuagvOS4gOiHtOeahEFwcFxyXG4gKlxyXG4gKi9cbi8qKlxyXG4gKiDlpoLmnpzkvaDmmK9BcHDlvIDlj5HogIXvvIjmj5Lku7bkvb/nlKjogIXvvInvvIzkvaDlj6/ku6XpgJrov4fkv67mlLnov5nkupvlj5jph4/mnaXlrprliLboh6rlt7HnmoTmj5Lku7bkuLvpopjvvIzlrp7njrDoh6rlrprkuYnkuLvpopjlip/og71cclxuICpcclxuICog5aaC5p6c5L2g55qE6aG555uu5ZCM5qC35L2/55So5LqGc2Nzc+mihOWkhOeQhu+8jOS9oOS5n+WPr+S7peebtOaOpeWcqOS9oOeahCBzY3NzIOS7o+eggeS4reS9v+eUqOWmguS4i+WPmOmHj++8jOWQjOaXtuaXoOmcgCBpbXBvcnQg6L+Z5Liq5paH5Lu2XHJcbiAqL1xuLyog6aKc6Imy5Y+Y6YePICovXG4vKiDooYzkuLrnm7jlhbPpopzoibIgKi9cbi8qIOaWh+Wtl+WfuuacrOminOiJsiAqL1xuLyog6IOM5pmv6aKc6ImyICovXG4vKiDovrnmoYbpopzoibIgKi9cbi8qIOWwuuWvuOWPmOmHjyAqL1xuLyog5paH5a2X5bC65a+4ICovXG4vKiDlm77niYflsLrlr7ggKi9cbi8qIEJvcmRlciBSYWRpdXMgKi9cbi8qIOawtOW5s+mXtOi3nSAqL1xuLyog5Z6C55u06Ze06LedICovXG4vKiDpgI/mmI7luqYgKi9cbi8qIOaWh+eroOWcuuaZr+ebuOWFsyAqL1xuLnRpdGxlLWJveCB7XG4gIHBhZGRpbmc6IDAgMThycHg7XG4gIG1hcmdpbi10b3A6IDI0cnB4O1xuICAtd2Via2l0LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgbGluZS1oZWlnaHQ6IDYwcnB4O1xuICBmb250LXNpemU6IDI4cnB4O1xuICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gIGNvbG9yOiAjZmZmO1xufVxuLnRpdGxlLWJveCB2aWV3OmZpcnN0LWNoaWxkIHtcbiAgICBiYWNrZ3JvdW5kOiAjMDA5QjREO1xufVxuLnRpdGxlLWJveCAudGl0bGUtY29udGV4dCB7XG4gICAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICBoZWlnaHQ6IDQwMHJweDtcbiAgICBiYWNrZ3JvdW5kOiAjY2NjO1xufVxuIiwiQGNoYXJzZXQgXCJVVEYtOFwiO1xuLyoqXHJcbiAqIOi/memHjOaYr3VuaS1hcHDlhoXnva7nmoTluLjnlKjmoLflvI/lj5jph49cclxuICpcclxuICogdW5pLWFwcCDlrpjmlrnmianlsZXmj5Lku7blj4rmj5Lku7bluILlnLrvvIhodHRwczovL2V4dC5kY2xvdWQubmV0LmNu77yJ5LiK5b6I5aSa5LiJ5pa55o+S5Lu25Z2H5L2/55So5LqG6L+Z5Lqb5qC35byP5Y+Y6YePXHJcbiAqIOWmguaenOS9oOaYr+aPkuS7tuW8gOWPkeiAhe+8jOW7uuiuruS9oOS9v+eUqHNjc3PpooTlpITnkIbvvIzlubblnKjmj5Lku7bku6PnoIHkuK3nm7TmjqXkvb/nlKjov5nkupvlj5jph4/vvIjml6DpnIAgaW1wb3J0IOi/meS4quaWh+S7tu+8ie+8jOaWueS+v+eUqOaIt+mAmui/h+aQreenr+acqOeahOaWueW8j+W8gOWPkeaVtOS9k+mjjuagvOS4gOiHtOeahEFwcFxyXG4gKlxyXG4gKi9cbi8qKlxyXG4gKiDlpoLmnpzkvaDmmK9BcHDlvIDlj5HogIXvvIjmj5Lku7bkvb/nlKjogIXvvInvvIzkvaDlj6/ku6XpgJrov4fkv67mlLnov5nkupvlj5jph4/mnaXlrprliLboh6rlt7HnmoTmj5Lku7bkuLvpopjvvIzlrp7njrDoh6rlrprkuYnkuLvpopjlip/og71cclxuICpcclxuICog5aaC5p6c5L2g55qE6aG555uu5ZCM5qC35L2/55So5LqGc2Nzc+mihOWkhOeQhu+8jOS9oOS5n+WPr+S7peebtOaOpeWcqOS9oOeahCBzY3NzIOS7o+eggeS4reS9v+eUqOWmguS4i+WPmOmHj++8jOWQjOaXtuaXoOmcgCBpbXBvcnQg6L+Z5Liq5paH5Lu2XHJcbiAqL1xuLyog6aKc6Imy5Y+Y6YePICovXG4vKiDooYzkuLrnm7jlhbPpopzoibIgKi9cbi8qIOaWh+Wtl+WfuuacrOminOiJsiAqL1xuLyog6IOM5pmv6aKc6ImyICovXG4vKiDovrnmoYbpopzoibIgKi9cbi8qIOWwuuWvuOWPmOmHjyAqL1xuLyog5paH5a2X5bC65a+4ICovXG4vKiDlm77niYflsLrlr7ggKi9cbi8qIEJvcmRlciBSYWRpdXMgKi9cbi8qIOawtOW5s+mXtOi3nSAqL1xuLyog5Z6C55u06Ze06LedICovXG4vKiDpgI/mmI7luqYgKi9cbi8qIOaWh+eroOWcuuaZr+ebuOWFsyAqL1xuLnd4LWNhc2Uge1xuICBwYWRkaW5nOiAwIDE4cnB4O1xuICBtYXJnaW4tdG9wOiAyNHJweDtcbiAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgICAgICAgIGJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gIGxpbmUtaGVpZ2h0OiA2MHJweDtcbiAgZm9udC1zaXplOiAyOHJweDtcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xuICBjb2xvcjogI2ZmZjtcbn1cbi53eC1jYXNlIHZpZXc6Zmlyc3QtY2hpbGQge1xuICAgIGJhY2tncm91bmQ6ICMwMDlCNEQ7XG59XG4ud3gtY2FzZSAuY2FzZS1jb250ZXh0IHtcbiAgICAtd2Via2l0LWJveC1zaXppbmc6IGJvcmRlci1ib3g7XG4gICAgICAgICAgICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xuICAgIGRpc3BsYXk6IC13ZWJraXQtYm94O1xuICAgIGRpc3BsYXk6IC13ZWJraXQtZmxleDtcbiAgICBkaXNwbGF5OiAtbXMtZmxleGJveDtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIC13ZWJraXQtZmxleC13cmFwOiB3cmFwO1xuICAgICAgICAtbXMtZmxleC13cmFwOiB3cmFwO1xuICAgICAgICAgICAgZmxleC13cmFwOiB3cmFwO1xuICAgIG1hcmdpbi10b3A6IDI0cnB4O1xufVxuLnd4LWNhc2UgLmNhc2UtY29udGV4dCAuY2FzZS1pdGVtIHtcbiAgICAgIC13ZWJraXQtYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgICAgICAgICAgYm94LXNpemluZzogYm9yZGVyLWJveDtcbiAgICAgIG1hcmdpbi1yaWdodDogMThycHg7XG4gICAgICBtYXJnaW4tYm90dG9tOiAyNHJweDtcbiAgICAgIHdpZHRoOiBjYWxjKDMzLjMzJSAtIDEycnB4KTtcbiAgICAgIGhlaWdodDogMTYwcnB4O1xuICAgICAgYmFja2dyb3VuZDogI2NjYztcbn1cbi53eC1jYXNlIC5jYXNlLWNvbnRleHQgLmNhc2UtaXRlbTpudGgtY2hpbGQoM24pIHtcbiAgICAgIG1hcmdpbi1yaWdodDogMDtcbn1cbiJdLCJzb3VyY2VSb290IjoiIn0=*/

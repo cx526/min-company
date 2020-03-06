@@ -1,0 +1,532 @@
+
+.header-box.data-v-1082b339 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	line-height: 120rpx;
+	background: #242A37;
+	padding-right: 18rpx;
+	position: relative;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.header-box image.data-v-1082b339 {
+	width: 260rpx;
+	height: 80rpx;
+}
+.header-box .icon-menu-two.data-v-1082b339 {
+	color: #fff;
+}
+.select-box.data-v-1082b339 {
+	position: absolute;
+	right: 0;
+	top: 120rpx;
+}
+.select-item.data-v-1082b339 {
+	background: #242A37;
+	line-height: 50rpx;
+	font-size: 28rpx;
+	color: #fff;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-bottom: 1px solid #fff;
+	padding: 0 24rpx;
+	text-align: center;
+	z-index: 100;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.banner {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 400rpx;
+  background: #ccc;
+}
+
+
+.location {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	line-height: 80rpx;
+	padding-left: 24rpx;
+	border-bottom: 1px solid #EAEAEA;
+}
+
+
+.multimedia {
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	width: 100%;
+	margin-top: 24rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.feature-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 24rpx 0;
+}
+.feature-box .feature-title {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.feature-box .feature-title view:nth-child(1) {
+      text-align: center;
+      font-size: 32rpx;
+      font-weight: 700;
+      line-height: 32rpx;
+      color: #333;
+}
+.feature-box .feature-title view:nth-child(2) {
+      text-align: center;
+      font-size: 28rpx;
+      line-height: 28rpx;
+      color: #666;
+      margin-top: 18rpx;
+}
+.feature-box .feature-list {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+    margin-top: 24rpx;
+}
+.feature-box .feature-list .feature-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      width: 50%;
+      text-align: center;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+}
+.feature-box .feature-list .feature-item .feature-img {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+}
+.feature-box .feature-list .feature-item .feature-img image {
+          width: 90rpx;
+          height: 90rpx;
+}
+.feature-box .feature-list .feature-item .feature-context {
+        text-align: center;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        height: 120rpx;
+}
+.feature-box .feature-list .feature-item .feature-context view:nth-child(1) {
+          font-size: 32rpx;
+          line-height: 32rpx;
+          font-weight: 700;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          color: #333;
+}
+.feature-box .feature-list .feature-item .feature-context view:nth-child(2) {
+          font-size: 28rpx;
+          line-height: 28rpx;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          color: #666;
+          margin-top: 8rpx;
+}
+.feature-box .feature-list .feature-item .feature-context view:nth-child(3) {
+          font-size: 28rpx;
+          line-height: 28rpx;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          color: #666;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.flow-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 24rpx 0;
+}
+.flow-box .flow-title {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-bottom: 24rpx;
+}
+.flow-box .flow-title view:first-child {
+      font-size: 32rpx;
+      color: #333;
+      text-align: center;
+      margin-bottom: 10rpx;
+      font-weight: 700;
+}
+.flow-box .flow-title view:last-child {
+      font-size: 28rpx;
+      color: #666;
+      text-align: center;
+}
+.flow-box .flow-nav {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 28rpx;
+    padding: 0 24rpx;
+    border-bottom: 1px solid #ccc;
+}
+.flow-box .flow-nav view {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+      text-align: center;
+}
+.flow-box .flow-nav view text {
+        display: inline-block;
+        padding-bottom: 12rpx;
+}
+.flow-box .flow-nav view text.active {
+        border-bottom: 2px solid #598AD3;
+        color: #598AD3;
+        font-weight: 700;
+}
+.flow-box .flow-context {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 36rpx 24rpx;
+    font-size: 28rpx;
+    color: #333;
+}
+.flow-box .flow-context view {
+      height: 240rpx;
+      background: #ccc;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.path-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0 0 24rpx;
+}
+.path-box .path-title {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-align: center;
+    font-size: 32rpx;
+    color: #333;
+    font-weight: 700;
+}
+.path-box .path-list {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 24rpx 16rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.path-box .path-list .path-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      margin-right: 16rpx;
+      width: calc(50% - 12rpx);
+      border: 1px solid #FAFAFA;
+      position: relative;
+}
+.path-box .path-list .path-item .path-img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 120rpx;
+        height: 90rpx;
+}
+.path-box .path-list .path-item .path-img image {
+          width: 120rpx;
+          height: 90rpx;
+}
+.path-box .path-list .path-item .path-main {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        margin-top: 120rpx;
+        padding: 0 24rpx;
+        font-size: 28rpx;
+        color: #333;
+        font-weight: 700;
+}
+.path-box .path-list .path-item .path-main text:first-child {
+          display: inline-block;
+          padding-bottom: 10rpx;
+          border-bottom: 2px solid #333;
+}
+.path-box .path-list .path-item .path-des {
+        font-size: 24rpx;
+        color: #666;
+        padding: 24rpx;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.plan-box {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 24rpx;
+}
+.plan-box .plan-title {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding-bottom: 24rpx;
+}
+.plan-box .plan-title view:first-child {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 32rpx;
+      color: #333;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 10rpx;
+}
+.plan-box .plan-title view:last-child {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 28rpx;
+      color: #666;
+      text-align: center;
+}
+.plan-box .plan-list {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-top: 24rpx;
+    padding: 0 18rpx;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+.plan-box .plan-list .plan-item {
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
+      width: 50%;
+      text-align: center;
+      height: 200rpx;
+}
+.plan-box .plan-list .plan-item .plan-main {
+        font-size: 28rpx;
+        color: #333;
+}
+.plan-box .plan-list .plan-item .plan-main text:first-child {
+          font-size: 32rpx;
+          font-weight: 700;
+}
+.plan-box .plan-list .plan-item .plan-des {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        padding: 0 24rpx;
+        font-size: 24rpx;
+        text-align: center;
+        color: #666;
+}
+
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.case-title {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 24rpx;
+  text-align: center;
+  color: #333;
+  font-weight: 700;
+  font-size: 32rpx;
+}
+.case-list {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 18rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.case-list .case-item {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin-right: 12rpx;
+    width: calc(33.33% - 8rpx);
+    box-sizing: border-box;
+    height: 180rpx;
+    border: 1px solid #ccc;
+    margin-bottom: 12rpx;
+}
+.case-list .case-item:nth-child(3n) {
+    margin-right: 0;
+}
+
